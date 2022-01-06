@@ -1,0 +1,168 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+body {
+     font-family: 'Montserrat', sans-serif !important;
+    
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(255, 205, 238);
+}
+
+.nav-item a{
+    color: rgb(255, 255, 255) !important; 
+}
+.nav-item i{
+    color: rgb(255, 255, 255) !important; 
+}
+#home {
+    background-image: url(imagenes/banner.jpg) !important;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100vh !important
+
+;
+    background-position: top center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+
+h1{
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+#home span {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+#home p {
+    color: #fff !important;
+}
+
+h2{
+    font-size: 2rem !important;
+    font-weight: 800;
+
+}
+
+.producto {
+    width: 250px;
+    height: 250px;
+    padding: 1;
+}
+
+.img-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.prod-text{
+    position: absolute;
+    top: 0;
+    left: -1300%;
+    width: 250px;
+    height: 250px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-mobile{
+    background-color: rgb(228, 144, 183);
+}
+
+.btn-top3{
+    background-color: rgb(228, 144, 183);
+}
+.footer{
+    background-color: rosybrown;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer-list li a{
+    color:rgb(0, 0, 0);
+}
+
+
+.social a {
+    color:rgb(0, 0, 0);
+}
+.social a i{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+@media screen and (min-width: 769px) {
+
+.producto {
+    width: 250px;
+    height: 250px;
+    padding: 1;
+}
+
+.img-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.producto:hover .prod-text{
+    left: 0;
+}
+
+.prod-text{
+    position: absolute;
+    top: 0;
+    left: -1300%;
+    width: 250px;
+    height: 250px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-prod{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    color:rgba(255, 255, 255, 0.7);
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.boton-prod:hover{
+    background: rgb(223, 222, 222);
+    color: rgb(79, 79, 79);
+    transition: all 300ms;
+}
+
+}
+
+
+
+
